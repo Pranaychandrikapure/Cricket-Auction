@@ -64,7 +64,7 @@ export default function LoginPage() {
               <Input
                 id="email"
                 type="email"
-                placeholder="admin@auction.com"
+                placeholder="Admin Gmail"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -93,10 +93,7 @@ export default function LoginPage() {
 
           <div className="mt-6 p-4 rounded-lg bg-muted space-y-2 text-sm">
             <p className="font-semibold">Demo Accounts:</p>
-            <div className="space-y-1 text-muted-foreground">
-              <p>Admin: admin@auction.com / admin123</p>
-              <p>Team: mumbaiindians@auction.com / owner123</p>
-            </div>
+            
           </div>
         </CardContent>
       </Card>
